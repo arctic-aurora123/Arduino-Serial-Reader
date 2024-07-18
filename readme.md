@@ -7,11 +7,11 @@ I write a python file to read the serial data from arduino into an excel on comp
 5. any serial data is ok, you can change the serial output format into excel
 ## GUI version
 get into the command line and enter
-```python
+```bash
 pip install pyinstaller pyQt
 ```
 then use pyinstaller to package the python file into exe
-```python
+```bash
 pyinstaller --onefile --noconsole serialdata_withgui.py
 ```
 then the exe file is in ./dst, it must in this dictionary to run
